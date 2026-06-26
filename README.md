@@ -5,7 +5,7 @@ treats that meeting as "upcoming", retrieves relevant context from all earlier
 meetings, asks a local LLM to produce a structured brief, renders it to Markdown, and
 scores the result.
 
-Everything runs locally — Postgres for the meeting data, sentence-transformers for
+Everything runs locally: Postgres for the meeting data, sentence-transformers for
 embeddings, and Qwen via [Ollama](https://ollama.com) for generation. No API keys.
 
 ## How it works
