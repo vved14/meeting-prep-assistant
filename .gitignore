@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Env / secrets
+.env
+
+# OS
+.DS_Store
+
+# Caches
+.cache/
+
+# Large seed data (loaded into Postgres, not source)
+tldv-backfill.seed.sql
+
+# Iterative dev changelog (not part of the published project)
+CHANGES.md
+
+# Generated output
+briefs/
+eval/

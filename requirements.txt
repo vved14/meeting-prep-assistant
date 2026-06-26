@@ -1,0 +1,22 @@
+# SETUP FILE — ready to use. Install with: pip install -r requirements.txt
+
+# Database driver (db.py)
+psycopg2-binary>=2.9
+
+# Numerical arrays for embeddings (embeddings.py, vector_store.py)
+numpy>=1.24
+
+# Local vector index (vector_store.py)
+faiss-cpu>=1.7.4
+
+# Local embedding model — the default, no API key needed (embeddings.py)
+sentence-transformers>=2.2
+
+# Text chunking (chunking.py)
+langchain-text-splitters>=0.2
+
+# LLM client — local Qwen via Ollama (llm.py)
+ollama>=0.3
+
+# Loads a local .env file automatically (config.py)
+python-dotenv>=1.0
